@@ -18,7 +18,7 @@ intents.message_content = True
 
 # for getting the prefix
 def prefix_callable(bot : Bot, message):
-    return [f"<@{bot.user.id}> ", f"<@!{bot.user.id}> ", "-aa ", "aa."]
+    return [f"<@{bot.user.id}> ", f"<@!{bot.user.id}> ", "-a ", "a"]
 
 bot = commands.Bot(command_prefix=prefix_callable, description="Botto", case_insensitive=True, intents=intents)
 bot.remove_command("help")
