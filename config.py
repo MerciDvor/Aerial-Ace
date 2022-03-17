@@ -4,7 +4,7 @@ import discord
 # Bot data
 TOKEN = os.environ["TOKEN"]
 TEST_TOKEN = os.environ["TEST_TOKEN"]
-ADMIN_ID = "734754644286504991"
+ADMIN_ID = "404852972154257411"
 POKETWO_ID = "716390085896962058"
 
 # Mongo Data
