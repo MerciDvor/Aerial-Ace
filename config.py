@@ -11,16 +11,16 @@ POKETWO_ID = "716390085896962058"
 MONGO_URI = os.environ["MONGO"]
 
 # Logging details
-SUPPORT_SERVER_ID = 751076697884852389
+SUPPORT_SERVER_ID = 929911960546443275
 SERVER_JOIN_LOG_CHANNEL_ID = 938032583726497812
 SUGGESTION_LOG_CHANNEL_ID = 938352848448659466
 
 # bot links
-INVITE_LINK = "https://discord.com/api/oauth2/authorize?client_id=908384747393286174&permissions=277025647680&scope=bot%20applications.commands"
+INVITE_LINK = "https://discord.com/api/oauth2/authorize?client_id=951850813188370502&permissions=277025647680&scope=bot%20applications.commands"
 AVATAR_LINK = "https://cdn.discordapp.com/avatars/908384747393286174/16ee31af1a88ab05809b1ea3bac3cc8f.png"
 SUPPORT_SERVER_LINK = "https://discord.gg/4mPdqevgsH"
-REPO_LINK = "https://github.com/aerial-ace/Aerial-Ace/"
-GITHUB_PROFILE_LINK = "https://github.com/Devanshu19/"
+REPO_LINK = "https://github.com/CoolBoyYT/"
+GITHUB_PROFILE_LINK = "https://github.com/CoolBoyYT/"
 VOTE_LINK = "https://top.gg/bot/908384747393286174/vote/"
 
 # Emojis
