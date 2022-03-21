@@ -12,7 +12,7 @@ class MailModule(commands.Cog):
 
         """View all the mails in the mail box"""
 
-        embd = discord.Embed(title="__Mail Box - AssisPoke", color=config.NORMAL_COLOR)
+        embd = discord.Embed(title="__Mail Box - AssisPoke__", color=config.NORMAL_COLOR)
         view = GeneralView(200, True, True, False, False)
         
         embd.description = "__**New**__\n\n"
