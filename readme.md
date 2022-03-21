@@ -14,9 +14,9 @@
 </h2>
 
 <p align="center">
-  Aerial Ace is a helper bot for <a href="https://github.com/poketwo/poketwo">Poketwo</a> which provide various functionalities on top of being a Pokédex.<br><br>
+  AssiPoke is a helper bot for <a href="https://github.com/poketwo/poketwo">Poketwo</a> which provide various functionalities on top of being a Pokédex.<br><br>
   <b>Prefix</b> : `-aa`<br>
-  <b>Website : <a href="https://aerial-ace.github.io/">Aerial Ace</a></b>
+  <b>Website : <a href="https://assi-poke.github.io/">AssiPoke</a></b>
 </p>
 
 ### Features
@@ -34,22 +34,22 @@
 * Advanced Starboard System that works with/without togglemention.
 
 ### Commands
-* `-aa roll <upper limit>` rolls a dice.
-* `-aa dex <pokemon name>` displays the Pokédex entry of the provided Pokémon.
-* `-aa kill @user` and `-aa hit @user` cz, why not :3
-* `-aa rand_poke` displays a random Pokémon from the dex.
-* `-aa tag <tag>` tags you to the provided tag.
-* `-aa tag_ping <tag>` pings the users currently tagged to the provided tag.
-* `-aa tag_show <tag>` shows the users currently tagged to the provided tag.
-* `-aa stats <pokemon name>` displays the best stats for the provided Pokémon.
-* `-aa moveset <pokemon name>` displays the best moveset of the provided Pokémon.
-* `-aa nature <pokemon name>` displays the best nature of the provided Pokémon.
-* `-aa weakness <pokemon name>` displays the type weaknesses of the provided Pokémon.
-* `-aa tierlist <tier type>` displays the tierlist of that type. Available types are `common`, `mega`, `rare`, `water`.
-* `-aa log_battle @winner @loser` logs the battle in the leaderboard.
-* `-aa battle_score` displays the current battle score the user.
-* `-aa battle_lb` displays the battle leaderboard of the server.
-* `-aa starboard #channel` sets the 'channel' as the starboard channel.
+* `-a roll <upper limit>` rolls a dice.
+* `-a dex <pokemon name>` displays the Pokédex entry of the provided Pokémon.
+* `-a kill @user` and `-aa hit @user` cz, why not :3
+* `-a rand_poke` displays a random Pokémon from the dex.
+* `-a tag <tag>` tags you to the provided tag.
+* `-a tag_ping <tag>` pings the users currently tagged to the provided tag.
+* `-a tag_show <tag>` shows the users currently tagged to the provided tag.
+* `-a stats <pokemon name>` displays the best stats for the provided Pokémon.
+* `-a moveset <pokemon name>` displays the best moveset of the provided Pokémon.
+* `-a nature <pokemon name>` displays the best nature of the provided Pokémon.
+* `-a weakness <pokemon name>` displays the type weaknesses of the provided Pokémon.
+* `-a tierlist <tier type>` displays the tierlist of that type. Available types are `common`, `mega`, `rare`, `water`.
+* `-a log_battle @winner @loser` logs the battle in the leaderboard.
+* `-a battle_score` displays the current battle score the user.
+* `-a battle_lb` displays the battle leaderboard of the server.
+* `-a starboard #channel` sets the 'channel' as the starboard channel.
 
 ### Commands in action
 <div class="row">
