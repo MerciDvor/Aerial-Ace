@@ -57,7 +57,7 @@ async def get_help_embed(ctx = None) -> Embed:
 
     prefix = (ctx.prefix if ctx is not None else "/")
 
-    embd = Embed(title="__HELP - Aerial Ace__", color=config.NORMAL_COLOR)
+    embd = Embed(title="__HELP - AssiPoke__", color=config.NORMAL_COLOR)
     embd.description = f"Send `{prefix}help <category>` where category can be one from these : "
     embd.add_field(
         name="Categories",
