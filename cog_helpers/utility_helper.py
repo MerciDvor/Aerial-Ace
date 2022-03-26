@@ -14,12 +14,12 @@ async def roll(max_value, user) -> str:
 
 # returns the about the bot embed
 async def get_about_embed(ctx) -> discord.Embed:
-    embd = discord.Embed(title="__ABOUT - Aerial Ace__", color=config.NORMAL_COLOR)
-    embd.description = "Aerial Ace = Pokedex + Poketwo Helper Bot"
+    embd = discord.Embed(title="__ABOUT - Asistente de poketwo__", color=config.NORMAL_COLOR)
+    embd.description = "Asistente de poketwo = Pokedex + Poketwo Helper Bot"
 
     embd.add_field(
         name=f"{config.BULLET_EMOJI}Prefix",
-        value="`-aa ` and `aa.`",
+        value="`-a ` and `a`",
         inline=True
     )
     embd.add_field(
@@ -71,13 +71,13 @@ async def get_about_embed(ctx) -> discord.Embed:
 
     embd.add_field(
         name=f"{config.BULLET_EMOJI}Source Details",
-        value=f"**Aerial Ace** is an open source project released under GNU GPL v3 license.\nComplete source of the project is available on the github page (links above).\nRepo stars are appreciated :3",
+        value=f"**Asistente de poketwo** is an open source project released under GNU GPL v3 license.\nComplete source of the project is available on the github page (links above).\nRepo stars are appreciated :3",
         inline=False
     )
 
     embd.add_field(
-        name=f"{config.BULLET_EMOJI}Made with  <3  by **Dev**",
-        value=f"**Discord** : `DevGa.me#0176`\n**Github** : [Devanshu19]({config.GITHUB_PROFILE_LINK})",
+        name=f"{config.BULLET_EMOJI}Made with  <3  by **Cool Boy**",
+        value=f"**Discord** : `Coby#5284`\n**Github** : [CoolBoyYT]({config.GITHUB_PROFILE_LINK})",
         inline=False
     )
 
@@ -87,8 +87,8 @@ async def get_about_embed(ctx) -> discord.Embed:
 
 # returns the vote embed
 async def get_vote_embed() -> discord.Embed:
-    embd = discord.Embed(title="__Vote for Aerial Ace__", color=config.NORMAL_COLOR)
-    embd.description = f"You can help Aerial Ace by voting for it.\n**Thank you** if you voted :3\n"
+    embd = discord.Embed(title="__Vote for Asistente de poketwo__", color=config.NORMAL_COLOR)
+    embd.description = f"You can help Asistente de poketwo by voting for it.\n**Thank you** if you voted :3\n"
     embd.description += f"Vote Link : [Click here]({config.VOTE_LINK})"
     embd.set_thumbnail(url=config.AVATAR_LINK)
 
@@ -104,7 +104,7 @@ async def get_support_server_embed() -> discord.Embed:
 
 # returns the invite embed
 async def get_invite_embed() -> discord.Embed:
-    embd = discord.Embed(title="__Invite - Aerial Ace__", color=config.NORMAL_COLOR)
+    embd = discord.Embed(title="__Invite - Asistente de poketwo__", color=config.NORMAL_COLOR)
     embd.description = "Invite Aerial Ace to your server using this link : \n\n"
     embd.description += f"Link : [Click Here]({config.INVITE_LINK})"
     embd.set_thumbnail(url=config.AVATAR_LINK)
